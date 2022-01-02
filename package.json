@@ -1,4 +1,5 @@
 {
+  "homepage": "https://leeq19.github.io/soom/", 
   "name": "soom",
   "version": "1.0.0",
   "description": "Zoom Clone using WebRTC and Websockets",
@@ -19,5 +20,9 @@
     "pug": "^3.0.2",
     "socket.io": "^4.4.0",
     "ws": "^8.4.0"
+  }, 
+  "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   }
 }
