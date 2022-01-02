@@ -41,4 +41,5 @@ io.on("connection", (socket) => {
 });
 
 const portNum = 3000
+const handleListen = () => console.log(`Listening on http://localhost:` + portNum);
 httpServer.listen(portNum, handleListen);
